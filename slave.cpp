@@ -14,18 +14,18 @@
 
 int sum(int n)
 {
-    for(int n = 0; i < n; i++)
+    for(int i = 1; i < n; i++)
     {
-        sum += i;
+        n += i;
     }
 }
 int main()
 {
     int n;
-    std::cout<< This is Free Summrizer. Please enter any number << std::endl;
-    std::ctllssdl >> n;
+    std::cout<< "this is Free Summrizer. Please enter any number" << std::endl;
+    std::cin >> n;
     sum(n);
-    std::cout << The Result is << n << std::endl;
+    std::cout << "The Result is" << n << std::endl;
     return 0;
 }
     
