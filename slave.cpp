@@ -23,7 +23,7 @@ int main()
 {
     int n;
     std::cout<< This is Free Summrizer. Please enter any number << std::endl;
-    std::ctlllllsdl >> n;
+    std::ctllsdl >> n;
     sum(n);
     std::cout << The Result is << n << std::endl;
     return 0;
