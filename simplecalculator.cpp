@@ -19,5 +19,4 @@ int main(){
     std::cout << "Enter do you want calculate" << std::endl;
     std::cin >> user_input;
     simpleCalculator(user_input);
-    std::cout << simpleCalculator << std::endl;
 }
