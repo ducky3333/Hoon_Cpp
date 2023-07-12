@@ -1,0 +1,12 @@
+@startuml
+scale 1
+title StartActivity
+StartActuvity ->MainActivity: startLabel
+note left: onTouchEvent
+note right:Math.random
+StartActuvity ->MainActivity: getIntExtra
+note left: hitStatus
+note right
+playHitSound 
+end note
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+scale 1
+title MainActivity 
+
+MainActivity->ResultActivity : SharedPreferences
+note right : playOverSound 
+ResultActivity -> MainActivity
+note right
+tryAgain
+end note
+@enduml

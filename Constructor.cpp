@@ -9,14 +9,14 @@ class Date {
   void ShowDate();
 
   Date() {
-    std::cout << "기본 생성자 호출!" << std::endl;
+    std::cout << "This is default constructor!" << std::endl;
     year_ = 2012;
     month_ = 7;
     day_ = 12;
   }
 
   Date(int year, int month, int day) {
-    std::cout << "인자 3 개인 생성자 호출!" << std::endl;
+    std::cout << "3arguments constructors" << std::endl;
     year_ = year;
     month_ = month;
     day_ = day;
@@ -24,8 +24,8 @@ class Date {
 };
 
 void Date::ShowDate() {
-  std::cout << "오늘은 " << year_ << " 년 " << month_ << " 월 " << day_
-            << " 일 입니다 " << std::endl;
+  std::cout << "Today is " << year_ << "/" << month_ << "/" << day_
+            << std::endl;
 }
 int main() {
   Date day = Date();
