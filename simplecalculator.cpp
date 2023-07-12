@@ -4,11 +4,11 @@ void simpleCalculator(int &bai){
     int i;
     
   
-    for(i=0; i <=5 sizeof(bai); i++){
+    for(i=0; i < sizeof(bai); i++){
 
         std::cout << "*";
     }
-
+test
    
 }
 
